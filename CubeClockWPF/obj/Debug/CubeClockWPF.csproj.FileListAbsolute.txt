@@ -1,0 +1,16 @@
+D:\Proyectos2000\vs\CubeClock\CubeClock\CubeClockWPF\bin\Debug\CubeClockWPF.exe.config
+D:\Proyectos2000\vs\CubeClock\CubeClock\CubeClockWPF\bin\Debug\CubeClockWPF.exe
+D:\Proyectos2000\vs\CubeClock\CubeClock\CubeClockWPF\bin\Debug\CubeClockWPF.pdb
+D:\Proyectos2000\vs\CubeClock\CubeClock\CubeClockWPF\obj\Debug\CubeClockWPF.csproj.AssemblyReference.cache
+D:\Proyectos2000\vs\CubeClock\CubeClock\CubeClockWPF\obj\Debug\MainWindow.g.cs
+D:\Proyectos2000\vs\CubeClock\CubeClock\CubeClockWPF\obj\Debug\App.g.cs
+D:\Proyectos2000\vs\CubeClock\CubeClock\CubeClockWPF\obj\Debug\CubeClockWPF_MarkupCompile.cache
+D:\Proyectos2000\vs\CubeClock\CubeClock\CubeClockWPF\obj\Debug\CubeClockWPF_MarkupCompile.lref
+D:\Proyectos2000\vs\CubeClock\CubeClock\CubeClockWPF\obj\Debug\MainWindow.baml
+D:\Proyectos2000\vs\CubeClock\CubeClock\CubeClockWPF\obj\Debug\CubeClockWPF.g.resources
+D:\Proyectos2000\vs\CubeClock\CubeClock\CubeClockWPF\obj\Debug\CubeClockWPF.Properties.Resources.resources
+D:\Proyectos2000\vs\CubeClock\CubeClock\CubeClockWPF\obj\Debug\CubeClockWPF.csproj.GenerateResource.cache
+D:\Proyectos2000\vs\CubeClock\CubeClock\CubeClockWPF\obj\Debug\CubeClockWPF.csproj.CoreCompileInputs.cache
+D:\Proyectos2000\vs\CubeClock\CubeClock\CubeClockWPF\obj\Debug\CubeClockWPF.exe
+D:\Proyectos2000\vs\CubeClock\CubeClock\CubeClockWPF\obj\Debug\CubeClockWPF.pdb
+D:\Proyectos2000\vs\CubeClock\CubeClock\CubeClockWPF\obj\Debug\App.baml

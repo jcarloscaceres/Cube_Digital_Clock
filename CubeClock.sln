@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32802.440
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CubeClockWPF", "CubeClockWPF\CubeClockWPF.csproj", "{1E851683-A418-4118-BB33-73D4F32C4566}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1E851683-A418-4118-BB33-73D4F32C4566}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E851683-A418-4118-BB33-73D4F32C4566}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E851683-A418-4118-BB33-73D4F32C4566}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E851683-A418-4118-BB33-73D4F32C4566}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {82122A19-3D58-4644-9901-97AB16F81ADC}
+	EndGlobalSection
+EndGlobal

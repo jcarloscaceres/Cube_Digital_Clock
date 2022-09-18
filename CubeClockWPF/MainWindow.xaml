@@ -1,0 +1,60 @@
+﻿<Window x:Class="CubeClockWPF.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CubeClockWPF"
+        mc:Ignorable="d" WindowStartupLocation="CenterScreen" WindowStyle="None" AllowsTransparency="True"
+        Background="Transparent"
+        Title="MainWindow" Height="200" Width="400" Loaded="Window_Loaded">
+    <Grid>
+        <Grid.ColumnDefinitions  >
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+
+        <Border CornerRadius="20" Grid.ColumnSpan="2" MouseDown="Border_MouseDown" Opacity="0.98">
+            <Border.Background>
+                <LinearGradientBrush>
+                    <GradientStop Color="#ffffff" Offset="0.0"/>
+                </LinearGradientBrush>
+            </Border.Background>
+        </Border>
+
+        <Border x:Name="colorfull" CornerRadius="20" Grid.Column="0" Panel.ZIndex="1000" MouseEnter="colorfull_MouseEnter">
+            <!--<Border.Effect>
+                <DropShadowEffect ShadowDepth="0.5" RenderingBias="Quality"/>
+            </Border.Effect>-->
+            <Border.Background>
+                <LinearGradientBrush>
+                    <GradientStop Color="#7be9f6" Offset="0.0"/>
+                    <GradientStop Color="#f083da" Offset="1"/>
+                </LinearGradientBrush>
+            </Border.Background>
+
+
+            <Grid>
+                <StackPanel>
+                    <TextBlock x:Name="afm" Text="am" Style="{StaticResource titleText}" Margin="0 40 0 0"/>
+                    <TextBlock x:Name="horaMin" Text="00:00" Style="{StaticResource secondText}"/>
+                    <TextBlock x:Name="segs" Text="00" Style="{StaticResource thirText}"/>
+                </StackPanel>
+            </Grid>
+            
+            
+        </Border>
+        <Grid Grid.Column="1">
+            <StackPanel>
+                <TextBlock x:Name="lbldia" Text="Miercoles" Style="{StaticResource GrayText}" Margin="0 60 0 0"/>
+                <TextBlock x:Name="lblmesydia"  Text="septiembre, 29th" Style="{StaticResource BlackText}" Margin="0 10 0 10"/>
+                <TextBlock x:Name="lblyear" Text="2022" Style="{StaticResource GrayText}"/>
+            </StackPanel>
+
+            <Image Source="/recursos/cerrar_icon2.png" MouseUp="Image_MouseUp" Style="{StaticResource imagenClose}"/>
+           
+        </Grid>
+        
+        
+        
+    </Grid>
+</Window>
